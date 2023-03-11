@@ -6,7 +6,7 @@ using std::cout;
 using std::cin;
 using std::endl;
 
-// inclui a definição de classe Analysis a patir de Analysis.h
+// inclui a definição de classe Analysis a partir de Analysis.h
 #include "Analysis.h"
 
 // processa os resultados do teste de 10 alunos
