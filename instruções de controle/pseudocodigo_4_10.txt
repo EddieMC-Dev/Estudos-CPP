@@ -1,0 +1,36 @@
+Uma faculdade oferece um curso que prepara os candidatos a obter licença estadual para corretores de imóveis. No ano passado,
+dez alunos que concluíram esse curso prestaram o exame. A universidade quer saber como foi o desempenho dos seus alunos nesse
+exame. Você foi contratado para escrever um programa que resuma os resultados. Para tanto, você recebeu uma lista com dez desses
+alunos. Ao lado de cada nome é escrito 1 se o aluno passou no exame ou 2 se o aluno foi reprovado.
+--------------------------------------------------------------------------------------------------------------------------------
+
+Analise os resultados do exame e decida se a mensalidade escolar deve ser elevada
+
+1º refinamento:
+
+Inicialize as variáveis
+Insira os 10 resultados dos exames e conte as aprovações e reprovações
+Imprima um resumo dos resultados do exame e decida se a mensagem escolar deve ser elevada
+
+2º refinamento:
+
+Inicialize as aprovações como zero
+Inicialize as reprovações como zero
+Inicialize o contador de alunos como um
+
+Enquanto o contador de alunos for menor ou igual a 10
+   Solicite que o usuário Insira o próximo resultado de exame
+   Insira o próximo resultado de exame
+
+   Se o aluno foi aprovado
+      Adicione um a aprovações
+   Caso contrário
+      Adicione um a reprovações
+
+   Adicione um ao contador de alunos
+
+Imprima o número de aprovações
+Imprima o número de reprovações
+
+Se mais de oito alunos forem aprovados
+   Imprima 'Aumentar a mensalidade escolar'

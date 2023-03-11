@@ -1,0 +1,42 @@
+Os motoristas se preocupam com o consumo de combustível dos seus automóveis. Um motorista monitorou vários tanques cheios de
+gasolina registrando a quilometragem dirigida e a quantidade de combustível em litros utilizados para cada tanque cheio. Desenvolva um
+programa C++ que utiliza uma instrução while para inserir os quilômetros percorridos e a quantidade de litros de gasolina utilizados
+para cada taque. O programa deve calcular e exibir o consumo em quilômetros/litro para cada tanque cheio e imprimir a quilometragem
+combinada e a soma total de litros de combustível consumidos até esse ponto.
+------------------------------------------------------------------------------------------------------------------------------------
+
+
+1º refinamento:
+
+Inicialize as variáveis
+Para cada automóvel
+   Solicite e insira a quilometragem e os litros
+   Calcule e imprima o consumo Km/L
+   Calcule e imprima o total consumido total km/ total L
+
+2º refinamento:
+
+Inicialize a quilometragem
+Inicialize o litros
+Inicialize o quilometragemTotal
+Inicialize o litrosTotal
+Inicialize consumo 
+Inicialize consumoTotal
+
+Solicite a quilometragem ao usuário (possivelmente o valor sentinela)
+Insira o valor da quilometragem
+
+Enquanto o valor da quilometragem for diferente do valor sentinela
+   Solicite a quantidade de litros 
+   Insira o valor ao litros
+
+   Adicione o litros ao litrosTotal
+   Adicione a quilometragem a quilometragemTotal
+   Adicione a quilometragem dividida pelos litros ao consumo
+   Adicione a quilometragemTotal dividida pelos litrosTotal ao consumoTotal
+   
+   Imprima a quantidade de quilômetros por litros do tanques
+   Imprima a quantidade total de quilômetros por total de litros
+   
+   Solicite a quilometragem ao usuário (possível sentinela)
+   Insira o valor a quilometragem

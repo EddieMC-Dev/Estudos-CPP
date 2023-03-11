@@ -1,0 +1,34 @@
+Desenvolva um programa em C++ que utiliza uma instrução while para determinar o pagamento bruto de cada um dos vários funcionários.
+A empresa paga ‘hora normal’ pelas primeiras 40 horas trabalhadas por empregado e paga ‘horas extras’ com 50% de gratificação para
+todas as horas trabalhadas além das primeiras 40 horas. Você recebe uma lista dos empregados da empresa, o número de horas trabalhadas
+por empregado na última semana e o salário-hora de cada empregado. Seu programa deve aceitar a entrada dessas informações para cada
+empregado e então determinar e exibir o salário bruto do empregado.
+----------------------------------------------------------------------------------------------------------------------------------
+
+1º refinamento
+
+Inicialize as variáveis
+Para cada empregado
+   Solicite e insira horas trabalhadas e o valor por hora trabalhada
+   Imprima o salário do empregado
+
+2º refinamento
+
+Inicialize horasTrabalhadas
+Inicialize valorPorHora
+Inicialize salario
+
+Solicite as horas trabalhadas
+Insira o valor em horasTrabalhadas
+
+Enquanto horasTrabalhadas for diferente do valor sentinela (-1)
+   Solicite o valor por hora trabalhada
+   Insira o valor em valorPorHora
+   Adicione ao salario o resultado da multiplicação de horasTrabalhadas por valorPorHora 
+
+   Se horasTrabalhadas for maior que 40
+      Some 50% de valorPorHora ao salario
+
+   Imprima salario
+   Solicite as horas trabalhadas
+   Insira o valor em horasTrabalhadas

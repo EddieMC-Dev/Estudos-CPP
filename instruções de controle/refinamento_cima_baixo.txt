@@ -1,0 +1,27 @@
+Programa (pseudocódigo): determine a média de classe para o questionário
+
+Primeiro refinamento:
+
+Inicialize as variáveis
+Insira, some e conte as notas do exame
+Calcule e imprima o total de todas as notas de aluno e a média da classe
+
+Segundo refinamento:
+
+Inicialize total como zero
+Inicialize o contador como zero
+Solicite que o usuário insira a primeira nota
+Insira a primeira nota (possivelmente a sentinela)
+ 
+Enquanto a usuário não inserir o sentinela
+   Adicione essa nota à soma total
+   Adicione um ao contador de notas
+   Solicite que o usuário insira a próxima nota
+   Insira a próxima nota (possivelmente a sentinela)
+
+Se o contador não for igual a zero
+   Configure a média como o total dividido pelo contador
+   Imprima o total das notas de todos os alunos da classe
+   Imprima a média da classe
+caso contrário
+   Imprima 'Nenhuma nota foi inserida'

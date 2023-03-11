@@ -1,0 +1,15 @@
+// Esse é um pseudocódigo para calcular a média de uma turma com 10 alunos
+// que realizaram um questionário com notas entre 0 e 100.
+
+Configura o total como zero
+Configura o contador de notas como um
+
+Enquanto o contador de notas for menor ou igual a dez:
+   Solicite que o usuário insira a próxima nota
+   Insira a próxima nota
+   Adicione a nota ao total
+   Adicione um ao contador
+
+Configura a média da classe como o total dividido por dez
+Imprima o total das notas de todos os alunos da classe
+Imprima a média da classe

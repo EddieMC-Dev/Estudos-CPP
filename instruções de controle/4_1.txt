@@ -1,0 +1,10 @@
+// Um pseudocódigo para realizar a soma entre dois números.
+
+Solicite que o usuário insira o primeiro inteiro
+Insira o primeiro inteiro
+
+Solicite que o usuário insira o segundo inteiro
+Insira o segundo inteiro
+
+Some o primeiro e o segundo inteiros, armazene o resultado
+Exiba o resultado

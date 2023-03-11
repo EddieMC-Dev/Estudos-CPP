@@ -1,0 +1,51 @@
+Desenvolva um programa C++ que determinará se um cliente de uma loja de departamentos excedeu o limite de crédito em uma conta
+corrente. Para cada cliente, os seguintes fatos estão disponíveis:
+a - Número de conta (um inteiro)
+b - Balanço no início do mês
+c - Total de todos os itens cobrados desse cliente no mês
+d - Total de pagamentos feitos pelo cliente no mês
+e - Limite autorizado de crédito
+ O programa deve utilizar uma instrução while para inserir cada um desses fatos, calcular o novo saldo ( = saldo inicial + taxas – créditos)
+e determinar se o novo saldo excede o limite de crédito do cliente. Para aqueles clientes cujo limite de crédito é excedido, o programa
+deve exibir o número da conta do cliente, o limite de crédito, o novo saldo e a mensagem ‘Limite de crédito excedido’.
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+1º refinamento:
+
+Inicialize as variáveis
+Para cada cliente
+   Solicite e insira: saldo inicial, total de taxas, total de creditos e o limite de credito
+   Imprima os resultados: novo saldo, conta, limite de credito, saldo e se o limite foi ultrapassado
+
+2º refinamento
+
+Inicialize o numeroConta
+Inicialize o saldoInicial
+Inicialize o totalTaxas
+Inicialize o totalCreditos
+Inicialize o limiteCredito
+
+Solicite o número da conta ao cliente (possivelmente o sentinela)
+Insira o valor em numeroConta
+
+Enquanto numeroConta for diferente de sentinela (-1)
+   Solicite o saldo inicial
+   Insira o valor em saldoInicial
+   Solicite o total de taxas
+   Insira o valor em totalTaxas
+   Solicite o total de creditos
+   Insira o valor em totalCreditos
+   Solicite o limite de credito
+   Insira o valor em limiteCredito
+
+   Adicione saldoInicial mais a totalTaxas e menos o totalCreditos ao novoSaldo
+   Imprima o novoSaldo
+
+   Se limiteCredito menor que o novoSaldo
+      Imprima o numeroConta
+      Imprima o limiteCredito
+      Imprima o saldo
+      Imprima "Limite de credito ultrapassado"
+
+   Solicite o número da conta ao cliente (possivelmente o sentinela)
+   Insira o valor em numeroConta

@@ -1,0 +1,33 @@
+O processo de localizar o maior número (isto é, o máximo de um grupo de valores) é freqüentemente utilizado em aplicativos de com-
+putador. Por exemplo, um programa que determina o vencedor de uma competição de vendas insere o número de unidades vendidas por
+vendedor. O vendedor que vende mais unidades ganha a competição. Escreva um programa em pseudocódigo, e então um programa em
+C++, que utiliza uma instrução while para determinar e imprimir o maior número dos dez números inseridos pelo usuário. Seu programa
+deve utilizar três variáveis, como segue:
+   counter: Um contador para contar até 10 (isto é, monitorar quantos números foram inseridos e determinar quando todos os
+            10 números foram processados).
+   number: A entrada numérica atual para o programa.
+   largest: O maior número encontrado até agora.
+------------------------------------------------------------------------------------------------------------------------------------  
+
+1º refinamento
+
+Inicialize as variáveis
+Para cada vendedor: solicite e insira as unidades vendidas
+Imprima o maior número de unidades vendidas
+
+2º refinamento
+
+Inicialize contador como um 
+Inicialize numero
+Inicialize maior como zero
+
+Enquanto contador for menor ou igual a 10
+   Solicite as unidades vendidas
+   Insira o valor em numero
+
+   Se maior for menor que numero
+      adicione numero ao maior
+
+   adicione 1 ao contador
+
+Imprima o maior

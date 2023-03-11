@@ -1,0 +1,27 @@
+Uma grande indústria química paga sua equipe de vendas por comissão. Os vendedores recebem $ 200 por semana mais 9% de suas vendas
+brutas por semana. Por exemplo, um vendedor que comercializa um valor de $ 5.000 em produtos químicos por semana recebe $ 200 mais
+9% de $ 5.000, ou um total de $ 650. Desenvolva um programa em C++ que utiliza uma instrução while para inserir as vendas brutas
+de cada vendedor durante a última semana e calcula e exibe os rendimentos desse vendedor. Processe os números de um vendedor por
+vez.
+----------------------------------------------------------------------------------------------------------------------------------
+
+1º refinamento
+
+Inicialize as variáveis
+Para cada vendedor
+   Solicite e insira o valor das vendas e depois imprima o salario 
+
+2º refinamento
+
+Inicialize vendas
+Inicialize salario
+
+Solicite as vendas em dolar (possível sentinela)
+Insira o valor as vendas
+
+while vendas for diferente de valor sentinela (-1)
+   Adicione ao salario 200 somado com 9% das vendas
+   Imprima salario
+
+   Solicite as vendas em dolar (possível sentinela)
+   Insira o valor em vendas 
